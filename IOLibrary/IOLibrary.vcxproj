@@ -151,11 +151,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="IOSocket.cpp" />
+    <ClCompile Include="IOThreading.cpp" />
     <ClCompile Include="Sample.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Common.h" />
     <ClInclude Include="GenericErrors.h" />
     <ClInclude Include="IOSocket.h" />
+    <ClInclude Include="IOThreading.h" />
     <ClInclude Include="SocketOption.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
