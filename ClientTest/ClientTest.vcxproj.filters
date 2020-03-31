@@ -15,33 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="IOSocket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="IOThreading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sample.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Server.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IOSocket.h">
+    <ClInclude Include="Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GenericErrors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SocketOption.h">
+    <ClInclude Include="IOSocket.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IOThreading.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Common.h">
+    <ClInclude Include="SocketOption.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
